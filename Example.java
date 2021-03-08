@@ -1,7 +1,19 @@
+package Oops;
+import java.util.*;
+
 public class Example {
     public static void main(String[] args) {
-        long num = -1233334556L;
-        System.out.println(num);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Num=");
+        int i = sc.nextInt();// save
+        System.out.println("Enter Second num=");
+        int j = sc.nextInt();
+        int k = i + j;
+        System.out.println("Result=" + k);
+
     }
-    
+
 }
+
+
+
